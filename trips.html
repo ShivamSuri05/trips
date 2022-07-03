@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="img/icon.jpg">
+    <title>Family Trips</title>
+</head>
+<body onload="Validate()">
+    <script>
+        function Validate(){
+          if(window.localStorage.getItem("HashSet")!=="True"){
+            alert("Unauthorised Access")
+            window.location.href = "./index.html"
+          }
+          else{
+            document.getElementById("wrapper").style.display = "none"
+          }
+        }
+    </script>
+    <div id="header">
+        <div>
+            <img src="img/head1.jpg">
+        </div>
+        <div id="text">
+            <span>Family Trips</span>
+        </div>
+    </div>
+    <div id="wrapper"></div>
+    <div id="main-content">
+        <div class="block">
+            <a href="https://photos.app.goo.gl/7gMuqy6yzRkQF9eK8" target="_blank">
+                <img src="img/mcleodganj.jpg" alt="test">
+            <div class="caption">
+                <span >Mcleodganj (June 2022)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/TysJcvR8jutrbbEr7" target="_blank">
+                <img src="img/mukteshwar.jpg" alt="test">
+            <div class="caption">
+                <span >Mini Goa & Mukteshwar (June 2022)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/LR6RhG4kfMn2mbuz5" target="_blank">
+                <img src="img/bathu.jpg" alt="test">
+            <div class="caption">
+                <span >Bathu ki Ladhi (June 2022)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/AXuG2A8LAPnP4gNr5" target="_blank">
+                <img src="img/puri.jpg" alt="test">
+            <div class="caption">
+                <span >Puri, Bhubaneshwar (Dec 2021)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/ZQXrxCnXqudWZEsX9" target="_blank">
+                <img src="img/agra.jpg" alt="test">
+            <div class="caption">
+                <span >Agra, Mathura (Dec 2019)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/buTQoBXkJ4HQGehE8" target="_blank">
+                <img src="img/assam.jpg" alt="test">
+            <div class="caption">
+                <span >Assam, Meghalaya (June 2019)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/adEXrvS1SD9V1f1k8" target="_blank">
+                <img src="img/3.jpg" alt="test">
+            <div class="caption">
+                <span >Harleen Water Park (June 2019)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/UWSmiHJfedsLy1We8" target="_blank">
+                <img src="img/4.jpg" alt="test">
+            
+            <div class="caption">
+                <span >Srinagar (May 2019)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/1ggLoPVSmrnKaBXLA" target="_blank">
+                <img src="img/5.jpg" alt="test">
+            <div class="caption">
+                <span >Pakistan Border (Dec 2018)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/7HNZRmwyPPA5rJJAA" target="_blank">
+                <img src="img/6.jpg" alt="test">
+            <div class="caption">
+                <span >Salasar (June 2018)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/pk4ybrEH2ouadAp88" target="_blank">
+                <img src="img/7.jpg" alt="test">
+            
+            <div class="caption">
+                <span >Dalhousie, Khajjiar (Dec 2017)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/4xA1kLNh2WavJQVx7" target="_blank">
+                <img src="img/8.jpg" alt="test">
+            <div class="caption">
+                <span >Katra (June 2017)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/7YJoCj8VsHD4Ud1P8" target="_blank">
+                <img src="img/9.jpg" alt="test">
+            <div class="caption">
+                <span >Jaipur, Ajmer (Dec 2015)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/SNuEUzkdtbmJrT9P9" target="_blank">
+                <img src="img/10.jpg" alt="test">
+            
+            <div class="caption">
+                <span >Haridwar (June 2015)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/rMox2NZ4k2fL6NR96" target="_blank">
+                <img src="img/11.jpg" alt="test">
+            <div class="caption">
+                <span >Tamil Nadu, Kerala (Dec 2014)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/AsLBvBpJkRGWbd1S7" target="_blank">
+                <img src="img/12.jpg" alt="test">
+            <div class="caption">
+                <span >UP, Bihar, Jharkhand (June 2014)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/9JkG5WFt8HafQx6FA" target="_blank">
+                <img src="img/13.jpg" alt="test">
+            
+            <div class="caption">
+                <span >Hyderabad, Srisailam (Jan 2014)</span>
+            </div>
+        </a>
+        </div>
+        <div class="block">
+            <a href="https://photos.app.goo.gl/uNQXPEbYF8KQdjr28" target="_blank">
+                <img src="img/14.jpg" alt="test">
+            <div class="caption">
+                <span >Manali (June 2011)</span>
+            </div>
+        </a>
+        </div>
+    </div>
+</body>
+</html>

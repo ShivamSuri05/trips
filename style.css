@@ -15,6 +15,17 @@
     color: white;
     border-bottom: 5px solid white;
 }
+#wrapper{
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+}
+#login{
+    position: relative;
+    margin: 10% 42%;
+}
 #main-content{
     margin: 2% 8%;
 }
@@ -62,6 +73,10 @@
         font-size: x-large;
         color: white;
         border-bottom: 2px solid white;
+    }
+    #login{
+        position: relative;
+        margin: 10% 22%;
     }
     #main-content{
         margin: 5% 1%;
